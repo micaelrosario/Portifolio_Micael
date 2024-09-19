@@ -3,21 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Portifólio Responsivo | Micael Rosário</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <!-- HEARDER -->
-     <header class="header">
+    <header class="header">
         <a href="#" class="logo" >Portifólio</a>
 
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
         <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#" class="active">Sobre</a>
-            <a href="#" class="active">Projetos</a>
-            <a href="#" class="active">Contato</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
         </nav>
-     </header>
+    </header>
+
+    <!--SEÇÂO HOME -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, Me chamo</h3>
+            <h1>Micael Rosário</h1>
+            <h3>E eu sou <span>SEO Analyst</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quos autem. Eum ab dicta quaerat! Expedita itaque quam provident corrupti perferendis recusandae. Dolorum quia fugit eos saepe voluptatum voluptatibus magni.</p>
+            <div class="redes-sociais">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn">Baixar CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="/img/Micael_Perfil.jpg" alt="">
+        </div>
+    </section>
+
+
+    <!--SEÇÂO SOBRE -->
+    <section class="sobre" id="sobre">
+        <div class="sobre-img">
+            <img src="/css/styles.css" alt="">
+        </div>
+
+        <div class="sobre-content">
+            <h2 class="heading">SOBRE <span>Me</span></h2>
+            <h3>SEO Analyst</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi a qui, quos est placeat fugit quia dicta consequatur magni nulla, nisi cum dolore quis repellat, sapiente at ratione exercitationem. Neque!</p>
+            <a href="#" class="btn">Leia mais</a>
+        </div>
+    </section>
+
+    <!--SEÇÂO PROJETOS -->
+    <section class="project" id="project">
+        <h2 class="heading">Últimos <span>Projetos</span></h2>
+
+        <div class="project-container">
+            <div class="project-box">
+                <img src="/img/Micael_Perfil.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="/img/Micael_Perfil.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="/img/Micael_Perfil.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="/img/Micael_Perfil.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="/img/Micael_Perfil.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="/img/Micael_Perfil.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     <script src="/js/main.js"></script>
 </body>
